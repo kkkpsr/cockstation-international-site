@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>КОКСтейшн Интернашинал - Работа</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="/">
+        <span class="brand-mark">CS</span>
+        <span>
+          <strong>КОКСтейшн Интернашинал</strong>
+          <small>COckStation International</small>
+        </span>
+      </a>
+      <a class="nav-link" href="/admin.html">Админ</a>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Регистрация на работу</p>
+          <h1>Подайте заявку в COckStation International</h1>
+          <p class="lead">
+            Заполните короткую анкету. Владелец получит вашу заявку на почту и сможет принять ее или отклонить.
+          </p>
+        </div>
+
+        <form class="application-form" id="applicationForm">
+          <div class="form-grid">
+            <label>
+              Имя и фамилия
+              <input name="name" autocomplete="name" required placeholder="Иван Иванов">
+            </label>
+            <label>
+              Email
+              <input name="email" type="email" autocomplete="email" required placeholder="ivan@example.com">
+            </label>
+            <label>
+              Телефон
+              <input name="phone" autocomplete="tel" placeholder="+7 999 123-45-67">
+            </label>
+            <label>
+              Желаемая должность
+              <select name="position" required>
+                <option value="">Выберите должность</option>
+                <option>Оператор станции</option>
+                <option>Менеджер смены</option>
+                <option>Специалист поддержки</option>
+                <option>Администратор</option>
+                <option>Другая должность</option>
+              </select>
+            </label>
+            <label>
+              Опыт работы
+              <select name="experience">
+                <option>Нет опыта</option>
+                <option>До 1 года</option>
+                <option>1-3 года</option>
+                <option>3+ года</option>
+              </select>
+            </label>
+            <label class="wide">
+              Коротко о себе
+              <textarea name="message" rows="5" placeholder="Расскажите, почему хотите работать у нас"></textarea>
+            </label>
+          </div>
+
+          <button class="button" type="submit">Отправить заявку</button>
+          <p class="status" id="formStatus" role="status"></p>
+        </form>
+      </section>
+    </main>
+
+    <script src="/script.js"></script>
+  </body>
+</html>

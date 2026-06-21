@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Админ - COckStation International</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="/">
+        <span class="brand-mark">CS</span>
+        <span>
+          <strong>КОКСтейшн Интернашинал</strong>
+          <small>Админ-панель</small>
+        </span>
+      </a>
+      <a class="nav-link" href="/">Форма</a>
+    </header>
+
+    <main class="admin-main">
+      <section class="admin-head">
+        <div>
+          <p class="eyebrow">Заявки</p>
+          <h1>Кандидаты</h1>
+        </div>
+        <form class="token-form" id="tokenForm">
+          <input id="adminToken" placeholder="Админ-токен" autocomplete="off">
+          <button class="button secondary" type="submit">Открыть</button>
+        </form>
+      </section>
+
+      <p class="status" id="adminStatus" role="status"></p>
+      <section class="applications" id="applications"></section>
+    </main>
+
+    <script src="/admin.js"></script>
+  </body>
+</html>

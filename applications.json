@@ -1,0 +1,38 @@
+[
+  {
+    "id": "c3842627-60b7-48e7-b380-9ba1ded41a52",
+    "name": "123",
+    "email": "hello@gmail.com",
+    "phone": "223232",
+    "position": "Другая должность",
+    "experience": "3+ года",
+    "message": "asd",
+    "status": "new",
+    "createdAt": "2026-06-21T12:32:10.416Z",
+    "decidedAt": null
+  },
+  {
+    "id": "ff46c762-c826-4d71-9f6c-2a941adc6aa4",
+    "name": "Гей Гейпорнович",
+    "email": "dartvays@gmail.com",
+    "phone": "+4915126176163",
+    "position": "Оператор станции",
+    "experience": "Нет опыта",
+    "message": "потому что",
+    "status": "new",
+    "createdAt": "2026-06-21T12:17:12.491Z",
+    "decidedAt": null
+  },
+  {
+    "id": "d5b1bb97-7f47-4387-b6ec-3313e5b47109",
+    "name": "Гей Гейпорнович",
+    "email": "dartvays@gmail.com",
+    "phone": "+4915126176163",
+    "position": "Оператор станции",
+    "experience": "Нет опыта",
+    "message": "because",
+    "status": "new",
+    "createdAt": "2026-06-21T12:11:08.438Z",
+    "decidedAt": null
+  }
+]
