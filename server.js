@@ -10,10 +10,10 @@ const PORT = Number(process.env.PORT || 3000);
 const BASE_URL = (process.env.BASE_URL || `http://localhost:${PORT}`).replace(/\/$/, "");
 const ADMIN_EMAIL = process.env.ADMIN_EMAIL;
 const ADMIN_TOKEN = process.env.ADMIN_TOKEN || "change-this-long-secret";
-const DATA_FILE = path.join(__dirname, "data", "applications.json");
+const DATA_FILE = path.join(__dirname, "applications.json");
 
 app.use(express.json({ limit: "250kb" }));
-app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static(__dirname));
 
 async function readApplications() {
   try {
